@@ -11,7 +11,6 @@ def inputInfo():
 	return (username,password,spam_profile,message,message_number)
 
 info = inputInfo()
-print(info)
 driver_path = "./chromedriver"
 browser = webdriver.Chrome(driver_path)
 url = "https://www.instagram.com/"
